@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <style>
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .image-container img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .overlay-text {
+            position: absolute;
+            bottom: 10px;
+            left: 12px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 5px;
+            font-size: 12px;
+        }
+        div.container {
+            text-align: center;
+        }
+        ul.centerlist {
+            display: inline-block;
+            text-align: left;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>FoIKS</title>
+    <link href="jvstyle.css" type="text/css" rel="stylesheet">
+</head>
+
+<body style="font-family: IBM Plex Serif">
+
+
+    <!-- Navigation Bar Start -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">FoIKS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="previous.html">Previous FoIKS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="steering.html">Steering Committee</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="impressum.html">Impressum</a>
+                    </li>
+                </ul>
+                <!--
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <img src="images/foiks-logo.png" id=logo alt="FoIKS logo" height="75"/>
+                    </li>
+                </ul>
+                -->
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation Bar End -->
+
+    <div class="container">
+        <div class="row">
+            <!--
+                <font size="6" face="IBM Plex Serif" style="font-style:regular;">
+                    <center>FoIKS</center>
+                </font>
+                <font size="3" face="IBM Plex Serif" style="font-style:regular;">
+                    <center>International Symposium on Foundations of Information and Knowledge Systems</center>
+                </font>
+                <hr>
+            -->
+            <div class="image-container">
+                <img src="images/foiks-logo.png" alt="Picture" style="padding-bottom: 10px; max-width: 50%; display: block; margin: 0 auto">
+            </div>
+        </div>
+        <div class="container">
+            <h3>Permanent Members of the Steering Committee</h3>
+            <ul class="centerlist">
+                <li>Klaus-Dieter Schewe</li>
+                <li>Bernhard Thalheim</li>
+                <li>Thomas Eiter</li>
+                <li>Gyula O. H. Katona</li>
+                <li>Gabriele Kern-Isberner</li>
+                <li><a href="https://researchportal.helsinki.fi/en/persons/juha-kontinen/">Juha Kontinen (Co-Chair)</a></li>
+                <li><a href="https://profiles.auckland.ac.nz/s-link/">Sebastian Link (Co-Chair)</a></li>
+        </div>
+        <div class="container">
+            <h3>Temporary Members of the Steering Committee</h3>
+            <h5>(PC Chairs of the current and three previous FoIKS)</h5>
+            <ul class="centerlist">
+                <li>2026: Jonni Virtema, Anni-Yasmin Turhan</li>
+                <li>2024: Arne Meier, Magdalena Ortiz</li>
+                <li>2022: Ivan Varzinczak</li>
+                <li>2020: Juha Kontinen, Andreas Herzig</li>
+                <!--<li>2018: Stefan Woltran, Flavio Ferarotti</li>-->
+        </div>
+    </div>
+
+    <!--
+<div style="height:100px"></div>
+    <footer class="fixed-bottom bg-dark text-white text-center text-lg-start">
+        <div class="text-center p-3">
+            <h5>Contact us at <a href="mailto:mail_placeholder"
+                    style="color:#acacac">mail_placeholder</a>!</h5>
+        </div>
+    </footer>
+-->
+
+</body>
+
+</html>
